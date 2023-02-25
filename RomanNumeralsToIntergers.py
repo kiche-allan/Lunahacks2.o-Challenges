@@ -30,30 +30,7 @@ print(roman_to_int('MCMXCIV'))
 print(roman_to_int('IX'))
 print(roman_to_int('IV'))
 
-Sure! Here is a breakdown of the code for converting Roman numerals to integers:
 
-python
-Copy code
-def roman_to_int(roman):
-    values = {
-        'I': 1,
-        'V': 5,
-        'X': 10,
-        'L': 50,
-        'C': 100,
-        'D': 500,
-        'M': 1000
-    }
-    result = 0
-    prev_value = 0
-    for char in roman[::-1]:
-        value = values[char]
-        if value < prev_value:
-            result -= value
-        else:
-            result += value
-        prev_value = value
-    return result
 # The def statement defines a new function called roman_to_int that takes a single argument called roman.
 # The values dictionary maps Roman numeral characters to their corresponding integer values.
 # The result variable is initialized to zero. This variable will accumulate the integer value of the Roman numeral string as we iterate through it.
