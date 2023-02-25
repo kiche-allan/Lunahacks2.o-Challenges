@@ -24,4 +24,9 @@ def roman_to_int(roman):
             result += value
             
         prev_value = value
+        
+        return result
+print(roman_to_int('MCMXCIV'))
+print(roman_to_int('IX'))
+print(roman_to_int('IV'))
     
