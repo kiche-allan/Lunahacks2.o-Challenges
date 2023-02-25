@@ -12,4 +12,4 @@ print(" The reversed string is: ", reversed_string)
 # The input function prompts the user to enter a string and waits for the user to input a value. The input value is stored in the s variable.
 
 # The reversed_s variable is assigned the value returned by the reverse_string function when called with the s argument.
-# The print function outputs a message to the console, followed by the reversed_s value. The message is displayed in the console along with the reversed string.
+# The print function outputs a message to the console, followed by the reversed_s value. The message is displayed in the console along with the reversed string and 
